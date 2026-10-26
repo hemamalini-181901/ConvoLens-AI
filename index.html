@@ -1,0 +1,280 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#070816">
+  <meta name="description" content="Capture conversations and turn them into meaningful insights with ConvoLens AI.">
+  <title>ConvoLens AI — Hear More. Understand Better.</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+
+<body>
+  <header class="navbar">
+    <a href="#home" class="brand" aria-label="ConvoLens AI home">
+      <span class="brand-orb"></span>
+      <span>convo<span class="gradient-text">lens</span><small> AI</small></span>
+    </a>
+
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="#home">Home</a>
+      <a href="#features">Features</a>
+      <a href="#how-it-works">How it works</a>
+    </nav>
+
+    <a href="#workspace" class="nav-cta">Open workspace <span>↗</span></a>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="status-dot"></span> YOUR CONVERSATION, DECODED</div>
+        <h1>Every conversation<br>holds <span class="gradient-text">something more.</span></h1>
+        <p class="hero-description">
+          Turn real-world conversations into clear transcripts, meaningful insights,
+          important decisions and your next steps.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#workspace" class="button-primary">Start a conversation <span>→</span></a>
+          <a href="#how-it-works" class="button-secondary">Explore the experience</a>
+        </div>
+
+        <div class="trust-row">
+          <span><span class="trust-icon">✳</span> Speech-to-text</span>
+          <span><span class="trust-icon">◈</span> Audio download</span>
+          <span><span class="trust-icon">⌁</span> Built for clarity</span>
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-label="Decorative audio visualization">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="orbit orbit-three"></div>
+
+        <div class="audio-core">
+          <div class="core-inner"><span class="mic-symbol">🎙</span></div>
+        </div>
+
+        <div class="waveform hero-wave" aria-hidden="true">
+          <span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+          <span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+          <span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+          <span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+          <span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+          <span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+        </div>
+
+        <div class="floating-note note-top">
+          <span class="note-icon">✧</span>
+          <div><small>LIVE CAPTURE</small><strong>Speech to text</strong></div>
+        </div>
+
+        <div class="floating-note note-bottom">
+          <span class="note-icon">↗</span>
+          <div><small>AFTER THE SESSION</small><strong>Review your words</strong></div>
+        </div>
+      </div>
+
+      <div class="hero-bottom-label">
+        <span>LISTEN DEEPLY.</span>
+        <span>UNDERSTAND CLEARLY.</span>
+        <span>MOVE FORWARD.</span>
+      </div>
+    </section>
+
+    <section class="features section-wrap" id="features">
+      <div class="section-heading">
+        <div>
+          <div class="eyebrow">BEYOND TRANSCRIPTION</div>
+          <h2>Understand the <span class="gradient-text">whole picture.</span></h2>
+        </div>
+        <p>Capture what was said now. Later, we can add AI summaries, decisions and action items.</p>
+      </div>
+
+      <div class="feature-grid">
+        <article class="feature-card">
+          <span class="feature-number">01 / CAPTURE</span>
+          <div class="feature-icon">〰</div>
+          <h3>Speech, captured</h3>
+          <p>Use your browser's speech recognition to turn supported speech into text.</p>
+          <span class="feature-arrow">↗</span>
+        </article>
+
+        <article class="feature-card featured-card">
+          <span class="feature-number">02 / KEEP</span>
+          <div class="feature-icon">✳</div>
+          <h3>Keep the audio</h3>
+          <p>Record audio in your browser and download it when the session ends.</p>
+          <span class="feature-arrow">↗</span>
+        </article>
+
+        <article class="feature-card">
+          <span class="feature-number">03 / UNDERSTAND</span>
+          <div class="feature-icon">↗</div>
+          <h3>Prepare for insights</h3>
+          <p>Your transcript can be reviewed before connecting a real AI analysis service.</p>
+          <span class="feature-arrow">↗</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="workspace-section section-wrap" id="workspace">
+      <div class="section-heading workspace-heading">
+        <div>
+          <div class="eyebrow"><span class="status-dot"></span> YOUR WORKSPACE</div>
+          <h2>Make room for <span class="gradient-text">the conversation.</span></h2>
+        </div>
+        <p>Allow microphone access, record with everyone's consent, then stop and review the transcript.</p>
+      </div>
+
+      <div class="workspace">
+        <aside class="workspace-sidebar">
+          <a href="#workspace" class="mini-brand">
+            <span class="brand-orb"></span> convo<span class="gradient-text">lens</span>
+          </a>
+
+          <div class="sidebar-label">WORKSPACE</div>
+          <a class="side-link active" href="#recorder"><span>◉</span> Record</a>
+          <a class="side-link" href="#transcriptCard"><span>✳</span> Transcript</a>
+          <a class="side-link" href="#results"><span>◷</span> Insights</a>
+
+          <div class="sidebar-bottom">
+            <span class="privacy-icon">◇</span>
+            <strong>Record responsibly.</strong>
+            <p>Tell everyone and get their consent before recording a conversation.</p>
+          </div>
+        </aside>
+
+        <section class="recorder-panel" id="recorder" aria-labelledby="recorderTitle">
+          <div class="panel-topline">
+            <div>
+              <div class="eyebrow">NEW SESSION</div>
+              <h3 id="recorderTitle">Ready when you are.</h3>
+            </div>
+            <span class="session-badge" id="sessionBadge"><span class="status-dot"></span> READY</span>
+          </div>
+
+          <p class="recorder-description">
+            Click start, allow microphone access, and speak clearly near your computer.
+          </p>
+
+          <div class="recorder-visual" id="recorderVisual">
+            <div class="recorder-orbit orbit-one"></div>
+            <div class="recorder-orbit orbit-two"></div>
+            <div class="recorder-button"><span>🎙</span></div>
+          </div>
+
+          <div class="timer" id="timer" aria-live="off">00:00:00</div>
+          <div class="recording-status" id="recordingStatus" role="status">
+            <span class="status-dot"></span> Waiting to record
+          </div>
+
+          <div class="recording-actions">
+            <button class="button-primary" id="startButton" type="button">
+              <span>●</span> Start recording
+            </button>
+            <button class="button-secondary" id="stopButton" type="button" disabled>
+              Stop session
+            </button>
+          </div>
+
+          <div class="recording-actions secondary-actions">
+            <button class="button-secondary" id="downloadAudioButton" type="button" disabled>
+              ↓ Download audio
+            </button>
+            <button class="button-secondary" id="downloadTextButton" type="button" disabled>
+              ↓ Download transcript
+            </button>
+          </div>
+
+          <p class="consent-note">
+            Microphone access is requested only when you start. Browser speech recognition may use an online service.
+          </p>
+
+          <div class="transcript-preview" id="transcriptCard">
+            <div class="transcript-heading">
+              <span>SESSION TRANSCRIPT</span>
+              <span class="preview-tag" id="transcriptTag">WAITING</span>
+            </div>
+            <p id="transcriptPlaceholder">
+              Your recognized speech will appear here. For best results, use a supported browser such as desktop Chrome and allow microphone access.
+            </p>
+          </div>
+        </section>
+
+        <aside class="insights-panel" id="results">
+          <div class="insights-title">
+            <div>
+              <div class="eyebrow">NEXT STAGE</div>
+              <h3>Conversation insights</h3>
+            </div>
+            <span class="sparkle">✳</span>
+          </div>
+
+          <article class="insight-item">
+            <span class="insight-icon">✧</span>
+            <div><h4>Quick summary</h4><p>A concise overview of the conversation.</p></div>
+          </article>
+
+          <article class="insight-item">
+            <span class="insight-icon">⌁</span>
+            <div><h4>Key highlights</h4><p>The most important points.</p></div>
+          </article>
+
+          <article class="insight-item">
+            <span class="insight-icon">◇</span>
+            <div><h4>Decisions & actions</h4><p>Commitments and next steps.</p></div>
+          </article>
+
+          <article class="insight-item">
+            <span class="insight-icon">◎</span>
+            <div><h4>Context & meaning</h4><p>Topics and ideas explained clearly.</p></div>
+          </article>
+
+          <div class="analysis-placeholder">
+            <span>✳</span>
+            <p>AI analysis is not connected yet. We'll add it after capture and transcription work reliably.</p>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="how-section section-wrap" id="how-it-works">
+      <div class="eyebrow">A CLEARER WAY TO LISTEN</div>
+      <h2>Three steps. <span class="gradient-text">More understanding.</span></h2>
+
+      <div class="steps-grid">
+        <article class="step-card">
+          <span>01</span><h3>Capture</h3>
+          <p>Start a browser audio recording after everyone has agreed to participate.</p>
+        </article>
+        <article class="step-card">
+          <span>02</span><h3>Transcribe</h3>
+          <p>View recognized speech as text. Accuracy and language support depend on your browser.</p>
+        </article>
+        <article class="step-card">
+          <span>03</span><h3>Review</h3>
+          <p>Download your audio and transcript. AI summaries will be added in a later stage.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer section-wrap">
+    <a href="#home" class="brand">
+      <span class="brand-orb"></span>
+      <span>convo<span class="gradient-text">lens</span><small> AI</small></span>
+    </a>
+    <p>Hear more. Understand better.</p>
+    <a href="#home">Back to top ↑</a>
+  </footer>
+</body>
+</html>
